@@ -10,6 +10,6 @@ st.title('Bienvenido !')
 
 df = pd.DataFrame(values, columns=feature_names)
 df
-plot = ["alcohol"]
+plot = df["alcohol"]
 st.write("voici un graphique")
 st.line_chart(plot)
